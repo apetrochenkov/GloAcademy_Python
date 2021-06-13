@@ -1,0 +1,9 @@
+print('Количество мячей')
+number_balls = int(input())
+print('Цена мяча - рубли (целое число)')
+price_rubles = int(input())
+print('Цена мяча - копейки (целое число)')
+price_penny = int(input())
+b = price_penny * number_balls % 100
+a = price_rubles * number_balls + price_penny * number_balls // 100
+print('За ', number_balls, ' нужно заплатить ', a, ' рублей ', b, 'копеек')
