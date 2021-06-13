@@ -1,0 +1,5 @@
+print('введите первое число')
+a = int(input())
+print('введите второе число')
+b = int(input())
+print(a**2 + b**2)
