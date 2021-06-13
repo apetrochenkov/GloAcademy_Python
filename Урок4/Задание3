@@ -1,0 +1,7 @@
+print('Введите целое положительное трехзначное число')
+entering_number = int(input())
+first = entering_number // 100
+second = entering_number % 100 // 10
+third = entering_number % 10
+print('Сумма цифр числа ', entering_number, ' равна ', first + second + third)
+print('Произведение цифр числа ', entering_number, ' равно ', first * second * third)
