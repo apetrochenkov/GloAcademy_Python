@@ -1,0 +1,9 @@
+print('С тремя print', end='\n\n')
+
+print('Glo Academy')
+print('')
+print('Glo Academy', end='\n\n')
+
+print('С одним print')
+print('')
+print('Glo Academy', end='\n\nGlo Academy')
