@@ -3,4 +3,4 @@ entring_second = int(input())
 hour = entring_second // 3600
 minute = entring_second % 3600 // 60
 second = entring_second % 3600 % 60
-print(entring_second, ' секунд это - ', hour, 'часов, ', minute, 'минут, ', second, 'секунд')
+print(entring_second, 'секунд это -', hour, 'часов,', minute, 'минут,', second, 'секунд')
