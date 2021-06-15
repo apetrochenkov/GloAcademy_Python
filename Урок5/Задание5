@@ -1,0 +1,6 @@
+print('Количество заданных задач')
+work = int(input())
+print('Выполнение задач за день')
+work_day = int(input())
+import math
+print(math.ceil(work / work_day))
