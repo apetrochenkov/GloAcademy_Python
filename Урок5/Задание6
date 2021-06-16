@@ -1,28 +1,23 @@
-print('Введите число')
-enter_number = int(input())
+enter_number = int(input('Введите число: '))
 if enter_number > 36:
-  print('ошибка ввода')
-if 1 >= enter_number <= 10:
+    print('ошибка ввода')
+if 1 <= enter_number <= 10:
     if enter_number % 2 == 0:
         print('черный')
     else:
         print('красный')
-else:
-    if 11 >= enter_number <= 18:
-        if enter_number % 2 != 0:
-            print('Черный')
-        else:
-            print('Красный')
+elif 11 <= enter_number <= 18:
+    if enter_number % 2 == 0:
+        print('красный')
     else:
-        if 19 >= enter_number <= 28:
-            if enter_number % 2 == 0:
-                print('Черный')
-            else:
-                print('Красный')
-# здесь наполовину срабатывает, не пойму почему((
-        else:
-            if 29 >= enter_number <= 36:
-                if enter_number % 2 != 0:
-                    print('Черный')
-                else:
-                    print('Красный')
+        print('черный')
+elif 19 <= enter_number <= 28:
+    if enter_number % 2 == 0:
+        print('черный')
+    else:
+        print('красный')
+elif 29 <= enter_number <= 36:
+    if enter_number % 2 == 0:
+        print('красный')
+    else:
+        print('черный')
