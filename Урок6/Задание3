@@ -1,0 +1,13 @@
+s = input('введите пост')
+t = input('введите второй пост')
+u = input('введите третий пост')
+if len(s) > len(t):
+    if len(s) > len(u):
+        print(s)
+    else:
+        print(u)
+else:
+    if len(t) > len(u):
+        print(t)
+    else:
+        print(u)
