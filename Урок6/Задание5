@@ -1,8 +1,5 @@
 a = input('Введите Вашу электронную почту')
-if '@' not in a:
+if '@' and '.' not in a:
     print('некорректный')
 else:
-    if '.' not in a:
-        print('некорректный')
-    else:
-        print('корректный')
+    print('корректный')
