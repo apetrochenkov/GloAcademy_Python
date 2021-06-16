@@ -1,6 +1,8 @@
 enter_number = int(input('Введите число: '))
 if enter_number > 36:
     print('ошибка ввода')
+if enter_number == 0:
+    print('зеленый')
 if 1 <= enter_number <= 10:
     if enter_number % 2 == 0:
         print('черный')
