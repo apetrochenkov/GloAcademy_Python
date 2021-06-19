@@ -1,0 +1,8 @@
+a = int(input())
+for i in range(a + 1):
+    if i % 10 == 1:
+        print(i)
+    if i % 10 == 3:
+        print(i)
+    if i % 10 == 7:
+        print(i)
