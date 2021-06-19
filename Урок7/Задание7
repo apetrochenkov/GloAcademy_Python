@@ -1,0 +1,10 @@
+a = int(input())
+total = 1
+total1 = 1
+for i in range(a + 1):
+    if i % 10 == 2:
+        total = total * i
+for j in range(a + 1):
+    if j % 10 == 9:
+        total1 = total1 * j
+print(total * total1)
