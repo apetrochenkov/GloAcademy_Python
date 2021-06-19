@@ -1,0 +1,12 @@
+a = int(input())
+nechet = "NO"
+for i in range(a):
+    b = int(input())
+    if b % 2 == 1:
+        nechet = "YES"
+print(nechet)
+for i in range(a):
+    b = int(input())
+    if b % 2 == 0:
+        nechet = "NO"
+print(nechet)
