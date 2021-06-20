@@ -1,0 +1,9 @@
+a = input('Вводите числа')
+total = 0
+counter = 0
+while a != 0:
+    a = int(input())
+    total += a
+    counter += 1
+print(total / (counter - 1))
+
