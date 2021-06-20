@@ -1,0 +1,6 @@
+a = int(input())
+counter = 0
+while a % 2 == 0:
+    counter += 1
+    a = a / 2
+print(counter)
