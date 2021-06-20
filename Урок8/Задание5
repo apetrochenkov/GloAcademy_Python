@@ -1,0 +1,10 @@
+a = input('Вводите числа')
+counter = 0
+counter_2 = 0
+while a != 0:
+    a = int(input())
+    if a > 0:
+        counter += 1
+    if a < 0:
+        counter_2 += 1
+print(counter * counter_2)
