@@ -1,0 +1,10 @@
+a = int(input())
+while a < 100:
+    a = int(input())
+    if a < 10:
+        continue
+    if a < 100:
+        number = a
+    else:
+        break
+print(number)
