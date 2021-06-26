@@ -1,0 +1,9 @@
+while a != 0:
+    last_digit = a % 10
+    if last_digit == 1:
+        print('yes')
+        break
+    else:
+        a = a // 10
+    if a == 0:
+        print('no')
