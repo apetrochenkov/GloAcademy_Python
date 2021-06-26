@@ -1,0 +1,10 @@
+a = int(input())
+
+for i in range(a + 1):
+    if 1 < i < 9:
+        continue
+    if 127 < i < 257:
+        continue
+    if 1023 < i < 2049:
+        continue
+    print(i)
