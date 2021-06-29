@@ -1,0 +1,6 @@
+n = input()
+m = ord(n)
+if (1039 < m < 1072):
+    print('yes')
+else:
+    print('no')
