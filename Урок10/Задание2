@@ -1,0 +1,6 @@
+n = input()
+m = ord(n)
+if (47 < m < 58):
+    print('yes')
+else:
+    print('no')
