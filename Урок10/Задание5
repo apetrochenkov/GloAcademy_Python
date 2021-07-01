@@ -1,0 +1,14 @@
+n = input()
+m = input()
+a = ord(n)
+b = ord(m)
+while a < b:
+    for i in range(a, b + 1):
+        print(chr(i), end=' ')
+    break
+while a > b:
+    a = ord(m)
+    b = ord(n)
+    for i in range(a, b + 1):
+        print(chr(i), end=' ')
+    break    
