@@ -1,0 +1,4 @@
+family = input()
+name = input()
+patronymic = input()
+print(family, ' ', name[0], '.', patronymic[0], '.', sep='')
