@@ -1,0 +1,9 @@
+a = input()
+counter = 0
+for i in range(len(a)):
+    j = i + 1
+    if j >= len(a):
+        break
+    if a[i] == a[j]:
+       counter += 1
+print(counter)
