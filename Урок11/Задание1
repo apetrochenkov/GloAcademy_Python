@@ -1,0 +1,7 @@
+list = [input() for i in range(int(input()))]
+request = input()
+for x in list:
+    request = request.lower()
+    x1 = x.lower()
+    if request in x1:
+        print(x)
