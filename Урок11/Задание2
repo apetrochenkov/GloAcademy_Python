@@ -1,0 +1,3 @@
+s = "D:\MyDocuments\Python\Courses\план обучения.txt/"
+s = s.replace('\\', '\n')
+print(s)
